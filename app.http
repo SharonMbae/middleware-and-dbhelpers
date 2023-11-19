@@ -1,0 +1,32 @@
+POST http://localhost:4400/employee/register
+Content-Type: application/json
+
+{
+    "name": "John Who",
+    "email": "johnwho@yopmail.com",
+    "phone_no":"0712345678",
+    "id_no": 1234567777,
+    "KRA_PIN": "AQ234OO7O6",
+    "NHIF_NO":"NHIF134515",
+    "NSSF_NO":"NSSFKI0102858",
+    "password": "12345688"
+
+    
+}
+
+###
+POST http://localhost:4400/employee/login
+Content-Type: application/json
+
+{
+    "email":"johnwho@yopmail.com",
+    "password":"12345688"
+}
+
+
+###
+GET http://localhost:4400/employee/
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6IjJiNWQ1MGQ2LTM1ZmEtNGNmZC1iN2UzLWMzMDk1NGMyNjhjMSIsIm5hbWUiOiJKb2huIFdobyIsImVtYWlsIjoiam9obndob0B5b3BtYWlsLmNvbSIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwMDQzMjUwMCwiZXhwIjoxNzAwNDM2MTAwfQ.wmp2DvBUvw9deF8V_lK5z3p0XiA1BYvi39i5L_Mkimo
+###
+GET http://localhost:4400/employee/check_user_details
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6IjJiNWQ1MGQ2LTM1ZmEtNGNmZC1iN2UzLWMzMDk1NGMyNjhjMSIsIm5hbWUiOiJKb2huIFdobyIsImVtYWlsIjoiam9obndob0B5b3BtYWlsLmNvbSIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwMDQzMjUwMCwiZXhwIjoxNzAwNDM2MTAwfQ.wmp2DvBUvw9deF8V_lK5z3p0XiA1BYvi39i5L_Mkimo

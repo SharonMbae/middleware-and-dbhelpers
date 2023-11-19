@@ -1,0 +1,8 @@
+CREATE OR ALTER PROCEDURE fetchAllEmployees
+
+AS 
+BEGIN
+
+SELECT * FROM Employees
+
+END
